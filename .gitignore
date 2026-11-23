@@ -1,0 +1,15 @@
+# LTspice generated simulation outputs
+*.raw
+*.db
+*.log
+*.net
+*.fft
+*.bak
+*.emf
+
+# ngspice check files (kept out of the repo)
+verify/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db

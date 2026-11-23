@@ -1,0 +1,30 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 0 32 0
+LINE Normal 32 0 32 24
+CIRCLE Normal 28 20 36 28
+LINE Normal 0 96 32 96
+LINE Normal 32 96 32 72
+CIRCLE Normal 28 68 36 76
+LINE Normal 92 48 36 24
+CIRCLE Normal 88 44 96 52
+LINE Normal 96 48 128 48
+TEXT 8 -8 Left 1 A
+TEXT 8 88 Left 1 B
+TEXT 108 40 Center 1 C
+WINDOW 0 64 -40 Center 2
+WINDOW 3 64 -16 Center 2
+WINDOW 39 64 120 Center 1
+SYMATTR Value SPDT
+SYMATTR Prefix X
+SYMATTR Description Time-controlled SPDT switch, COM-A default, COM-B when active (MODE param)
+SYMATTR SpiceLine MODE=2
+PIN 0 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 0 96 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN 128 48 NONE 0
+PINATTR PinName COM
+PINATTR SpiceOrder 3

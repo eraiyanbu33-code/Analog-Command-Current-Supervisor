@@ -1,0 +1,24 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 0 0 32
+RECTANGLE Normal -12 32 12 128
+LINE Normal 0 128 0 160
+LINE Normal 64 80 16 80
+LINE Normal 16 80 28 72
+LINE Normal 16 80 28 88
+WINDOW 0 24 -8 Left 2
+WINDOW 3 24 16 Left 2
+WINDOW 39 24 140 Left 1
+SYMATTR Value POT10K
+SYMATTR Prefix X
+SYMATTR Description 10 k potentiometer, K = wiper-to-BOT fraction
+SYMATTR SpiceLine K=0.5
+PIN 0 0 NONE 0
+PINATTR PinName TOP
+PINATTR SpiceOrder 1
+PIN 64 80 NONE 0
+PINATTR PinName W
+PINATTR SpiceOrder 2
+PIN 0 160 NONE 0
+PINATTR PinName BOT
+PINATTR SpiceOrder 3

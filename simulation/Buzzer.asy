@@ -1,0 +1,18 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 0 0 32
+RECTANGLE Normal -24 32 24 96
+TEXT 0 64 Center 1 BZ
+LINE Normal 0 96 0 128
+TEXT -16 24 Left 1 +
+WINDOW 0 32 48 Left 2
+WINDOW 3 32 72 Left 2
+SYMATTR Value BUZZER5
+SYMATTR Prefix X
+SYMATTR Description 5 V active buzzer
+PIN 0 0 NONE 0
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN 0 128 NONE 0
+PINATTR PinName -
+PINATTR SpiceOrder 2
